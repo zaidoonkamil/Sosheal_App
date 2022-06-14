@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "453051756981",
+    "project_id": "soshealappdoid",
+    "storage_bucket": "soshealappdoid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453051756981:android:260dd8cf0e650a0f50a9fc",
+        "android_client_info": {
+          "package_name": "com.example.sosheal_app_doid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453051756981-o6btmgt6h7srb90894il5qlscc4ggpea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeO4QCR1eo5sesB7E3EC0ewROmilnfSgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453051756981-o6btmgt6h7srb90894il5qlscc4ggpea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
