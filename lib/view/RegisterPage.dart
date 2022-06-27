@@ -17,7 +17,7 @@ class RegisterPage extends StatefulWidget {
 }
 
 class _RegisterPageState extends State<RegisterPage> {
-  Color kPrimaryColor = const Color(0xff2B475E);
+  Color kPrimaryColor = const Color(0xff0f1a1f);
 
   String email;
 
@@ -40,11 +40,7 @@ class _RegisterPageState extends State<RegisterPage> {
             child: ListView(
               children: [
                 const SizedBox(
-                  height: 75,
-                ),
-                Image.asset(
-                  'assets/images/scholar.png',
-                  height: 100,
+                  height: 60,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -60,7 +56,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   ],
                 ),
                 const SizedBox(
-                  height: 75,
+                  height: 50,
                 ),
                 Row(
                   children: const [
