@@ -44,12 +44,14 @@ class sosheal extends StatelessWidget {
                               link:
                                   snapshot.data.docs[i].data()['nameansta'],
                               image: snapshot.data.docs[i]
-                                  .data()['photoansta'],                                ),
+                                  .data()['photoansta'],
+                            ),
                             custom_botton_home(
                               link: snapshot.data.docs[i]
                                   .data()['namefacebook'],
                               image: snapshot.data.docs[i]
-                                  .data()['photofacebook'],                                ),
+                                  .data()['photofacebook'],
+                            ),
                           ],
                         ),
                         Row(
@@ -59,17 +61,20 @@ class sosheal extends StatelessWidget {
                               link: snapshot.data.docs[i]
                                   .data()['namesnapchat'],
                               image: snapshot.data.docs[i]
-                                  .data()['photosnapchat'],                                ),
+                                  .data()['photosnapchat'],
+                            ),
                             custom_botton_home(
                               link: snapshot.data.docs[i]
                                   .data()['nametwitter'],
                               image: snapshot.data.docs[i]
-                                  .data()['phototwitter'],                                ),
+                                  .data()['phototwitter'],
+                            ),
                             custom_botton_home(
                               link: snapshot.data.docs[i]
                                   .data()['nametiktok'],
                               image: snapshot.data.docs[i]
-                                  .data()['phototiktok'],                                ),
+                                  .data()['phototiktok'],
+                            ),
                           ],
                         ),
                         Row(
@@ -79,17 +84,20 @@ class sosheal extends StatelessWidget {
                               link: snapshot.data.docs[i]
                                   .data()['nametelegram'],
                               image: snapshot.data.docs[i]
-                                  .data()['phototelegram'],                                ),
+                                  .data()['phototelegram'],
+                            ),
                             custom_botton_home(
                               link: snapshot.data.docs[i]
                                   .data()['namekuaishou'],
                               image: snapshot.data.docs[i]
-                                  .data()['photokuaishou'],                                ),
+                                  .data()['photokuaishou'],
+                            ),
                             custom_botton_home(
                               link: snapshot.data.docs[i]
                                   .data()['namewhatsapp'],
                               image: snapshot.data.docs[i]
-                                  .data()['photowhatsapp'],                                ),
+                                  .data()['photowhatsapp'],
+                            ),
                           ],
                         ),
                         Row(
@@ -99,20 +107,24 @@ class sosheal extends StatelessWidget {
                               link: snapshot.data.docs[i]
                                   .data()['namegoogle'],
                               image: snapshot.data.docs[i]
-                                  .data()['photogoogle'],                                ),
+                                  .data()['photogoogle'],
+                            ),
                             custom_botton_home(
                               link: snapshot.data.docs[i]
                                   .data()['namegoogle-maps'],
                               image: snapshot.data.docs[i]
-                                  .data()['photogoogle-maps'],                                ),
+                                  .data()['photogoogle-maps'],
+                            ),
                             custom_botton_home(
                               link: snapshot.data.docs[i]
                                   .data()['namegmail'],
                               image: snapshot.data.docs[i]
-                                  .data()['photogmail'],                                ),
+                                  .data()['photogmail'],
+                            ),
                           ],
                         ),
                         const CustomLine(),
+                        // ignore: deprecated_member_use
                         FlatButton(
                           onPressed: () {
                             Get.to(const DownloadScreen());
@@ -126,14 +138,14 @@ class sosheal extends StatelessWidget {
                                     fontSize: 15,
                                     color: Colors.white60),
                               ),
-                              Spacer(),
+                              const Spacer(),
                               Image.network(
                               snapshot.data.docs[i]
                                     .data()['photoyoutube'],
                                 height: 40,
                                 width: 40,
                               ),
-                              Spacer(),
+                              const Spacer(),
                               Container(),
                             ],
                           ),
